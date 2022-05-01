@@ -415,4 +415,6 @@ Plot 3 shows a network plot of rules with confidence \> 0.01 and support
 \> 0.005, this was done to make the network more presentable, trying to
 plot all of the rules creates a messy and un-interpretable network.
 
-![](ECO_395M_Homework_4_files/figure-markdown_github/3C-1.png)![](ECO_395M_Homework_4_files/figure-markdown_github/3C-2.png)<img src="question_3_files/screenshot_210619.png" width="328" />
+![](ECO_395M_Homework_4_files/figure-markdown_github/3C-1.png)![](ECO_395M_Homework_4_files/figure-markdown_github/3C-2.png)
+
+<img src="question_3_files/screenshot_210619.png" width="983" />

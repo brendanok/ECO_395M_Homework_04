@@ -406,8 +406,8 @@ plot(groceryrules, measure = c("support", "lift"), shading = "confidence")
 
 # "two key" plot: coloring is by size (order) of item set
 plot(groceryrules, method='two-key plot')
+```
 
+```{r, message=FALSE, echo=FALSE, dpi=100}
 knitr::include_graphics("question_3_files/screenshot_210619.png")
-
-
 ```
