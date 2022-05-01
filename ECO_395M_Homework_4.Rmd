@@ -364,31 +364,31 @@ saveAsGraph(sub1, file = "groceryrules.graphml")
 kable(data_frame_mod[1:15, ], caption = "Rules with lift over 10")
 ```
 
-  **Looking at many of the rules, it's clear that some are compliments such as:**
+**Looking at many of the rules, it's clear that some are compliments such as:**
   
-  {ham, processed cheese} -> white bread 
+  `{ham, processed cheese} -> white bread`
   
-  {baking powder, flour} -> sugar
+  `{baking powder, flour} -> sugar`
   
   **Other rules might not initially seem like complements, but have clear associations with each other. The rule with the highest lift seems to come from people planning parties or cookouts:**
   
-  {instant food products, soda} -> hamburger meat 
+  `{instant food products, soda} -> hamburger meat` 
   
 This rule has the highest lift of all the rules we found with 18.998 lift, and may indicate people buying products for cookouts.
   
-  {liquor, red/blush wine} -> bottled beer
+  `{liquor, red/blush wine} -> bottled beer`
   
   This rule makes sense for parties, it also has a very high confidence of 0.9047619.
   
-  {popcorn, soda} -> salty snack 
+  `{popcorn, soda} -> salty snack` 
   
   This rule makes sense because people buy these items for parties and movie nights
   
   **Finally, the most amusing rule may be:**
   
-  {Instant food products, whole milk} -> hamburger meat 
+  `{Instant food products, whole milk} -> hamburger meat` 
   
-  This rule may be comprised of people buying the ingredients for the American household staple Hamburger Helper, which requires instant Hamburger Helper mix, milk, and hamburger meat. 
+  This rule may be comprised of people buying the ingredients for the American household staple Hamburger Helper, which requires instant Hamburger Helper mix, milk, and hamburger meat.  
   
 ### Graphs
 
